@@ -1,0 +1,1 @@
+👩‍💻 Olá! Estou em processo de desenvolvimento do meu portfólio, onde pretendo reunir meus principais projetos, estudos e experiências na área de tecnologia. A ideia é ter um espaço onde eu possa mostrar minha evolução, explorar novas ideias e compartilhar aprendizados. Em breve, atualizações e projetos estarão disponíveis por aqui!
