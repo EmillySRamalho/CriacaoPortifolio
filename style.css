@@ -1,14 +1,13 @@
 body {
-    background-color: rgb(199, 178, 178);
+    background-color: rgb(243, 239, 239);
 }
 
 .imagem{
     position: absolute;
-    right: 130px;
-    top: 20px; 
-    height: 700px;
+    right: 200px;
+    top: -18px; 
+    height: 800px;
     border-radius: 70px 70px 100px 100px;
-   
 }
 .container{
     background-color: rgb(184, 150, 150);
@@ -52,4 +51,37 @@ button:hover{
   object-fit: cover;
   display: block;
   border-radius: 15px;
+}
+
+.nome {
+  position: absolute;
+  top: 200px;
+  left: 18%;
+  transform: translateX(-50%);
+  color: rgb(182, 105, 163);
+  font-size: 70px;
+  font-weight:bold;
+  font-family:'Playfair Display' serif;
+}
+
+.nome1 {
+  position: absolute;
+  top: 290px;
+  left:30%;
+  transform: translateX(-50%);
+  color: rgb(71, 5, 77);
+  font-size: 120px;
+  font-weight:bold;
+}
+
+.nome2 {
+  position: absolute;
+  top: 582px;
+  left: 42%;
+  transform: translateX(-50%);
+  color: rgb(182, 105, 163);
+  font-size: 45px;
+  font-weight:bold;
+  font-family:'Montserrat';
+  font-style: italic;
 }
