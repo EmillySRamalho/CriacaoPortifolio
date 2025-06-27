@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 239, 239);
+    background-color: rgb(255, 255, 255);
 }
 
 .imagem{
@@ -11,9 +11,9 @@ body {
 }
 .container{
     background-color: rgb(184, 150, 150);
-    height: 800px;
+    height: 850px;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .buttons{
@@ -24,7 +24,7 @@ body {
 }
 
 .button1{
-    background-color: #cdc3d3;
+    background-color: #eae2ee;
     color: rgb(15, 15, 15);
     padding: 12px 20px;
     border: 2px solid rgb(226, 211, 214);
@@ -84,4 +84,42 @@ button:hover{
   font-weight:bold;
   font-family:'Montserrat';
   font-style: italic;
+}
+
+.carrossel{
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  height: 850px;
+}
+
+.texto {
+ position: absolute;
+  top: 80px;
+  left: 64.5%;
+  transform: translateX(-50%);
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(182, 105, 163);
+  padding: 8px 16px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px 
+}
+
+.texto1 {
+  position: absolute;
+  top: 22%;
+  left: 65%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  font-family:'Times New Roman';
+  color: #18588d;
+  text-align: justify;
+}
+
+.imagem3 {
+  position: relative;
+  left: 17%;
+  margin-top: 7%;
+  height: 600px;
 }
