@@ -123,3 +123,70 @@ button:hover{
   margin-top: 7%;
   height: 600px;
 }
+
+.organizacao{
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: 5%;
+   border-radius: 15px;
+}
+
+.organizacao2{
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: -45%;
+  left: 477px;
+   border-radius: 15px;
+}
+
+.organizacao3{
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: -45%;
+  left: 952px;
+   border-radius: 15px;
+}
+
+.organizacao4{
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: -45%;
+  left: 1428px;
+  border-radius: 15px;
+}
+
+.fotoQA{
+  position: relative;
+  left: -12%;
+  margin-top: 7%;
+  height: 600px;
+}
+
+.fotoQA2{
+  position: relative;
+  left: -3%;
+  margin-top: 40%;
+  height: 400px;
+}
+
+.fotoQA3{
+  position: relative;
+  left: 0%;
+  margin-top: 40%;
+  height: 400px;
+}
+
+.fotoQA4{
+  position: relative;
+  left: 5%;
+  margin-top: 30%;
+  height: 450px;
+}
