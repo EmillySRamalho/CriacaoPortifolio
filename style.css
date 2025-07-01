@@ -255,3 +255,48 @@ button:hover{
   text-transform: uppercase;
   -webkit-text-stroke: 1px }
 
+  .habilidades{
+  background-color: rgb(231, 207, 207);
+  position:relative;
+  height: 850px;
+  width: auto;
+  margin-top: 1%;
+  border-radius: 15px;
+  display: flex;
+  gap: 30px; 
+}
+
+.hab{
+  position: absolute;
+  top: 85px;
+  left: 51%;
+  text-align: center;
+  transform: translateX(-50%);
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #ca8cb0;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px }
+
+.logos {
+  position: relative;
+  left: 10%;
+  margin-top: 15%;
+  height: 150px;
+  border-radius: 38px;
+  padding : 20px;
+}
+
+.descricao{
+  position: absolute;
+  top: 170px;
+  left: 51%;
+  text-align: center;
+  transform: translateX(-50%);
+  font-size: 20x;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #020202;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px }
