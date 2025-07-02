@@ -256,7 +256,7 @@ button:hover{
   -webkit-text-stroke: 1px }
 
   .habilidades{
-  background-color: rgb(231, 207, 207);
+  background-color: rgb(255, 255, 255);
   position:relative;
   height: 850px;
   width: auto;
@@ -264,6 +264,7 @@ button:hover{
   border-radius: 15px;
   display: flex;
   gap: 30px; 
+
 }
 
 .hab{
@@ -281,11 +282,15 @@ button:hover{
 
 .logos {
   position: relative;
-  left: 10%;
-  margin-top: 15%;
+  left: 12%;
+  margin: 0;
   height: 150px;
   border-radius: 38px;
   padding : 20px;
+}
+
+.logos:hover{
+  background-color: #e2c0d4;
 }
 
 .descricao{
@@ -294,9 +299,105 @@ button:hover{
   left: 51%;
   text-align: center;
   transform: translateX(-50%);
-  font-size: 20x;
+  font-size: 18px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  color: #020202;
+  color: #616161;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px }
+  -webkit-text-stroke: 0px }
+
+  .linha { 
+  max-width: 1700px; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 15%;
+  align-items: start;
+  }
+
+
+.evento{
+ background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: 5%;
+  border-radius: 15px;
+}
+
+.mdc {
+  position: relative;
+  left: 13%;
+  margin-top: 15%;
+  height: 450px;
+  border-radius: 30px;
+}
+
+.evento2{
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: -45%;
+  left: 477px;
+   border-radius: 15px;
+}
+
+.campus{
+  position: relative;
+  left: 8%;
+  margin-top: 5%;
+  height: 350px;
+  border-radius: 30px;
+}
+.campus2{
+  position: relative;
+  left: 35%;
+  margin-top: 3%;
+  height: 350px;
+  border-radius: 30px;
+}
+.evento3{
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: -45%;
+  left: 952px;
+   border-radius: 15px;
+}
+
+.tech{
+  position: relative;
+  left: 2%;
+  margin-top: 5%;
+  height: 330px;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.tech2{
+  position: relative;
+  left: 10%;
+  margin-top: 0%;
+  height: 260px;
+  border-radius: 30px;
+}
+
+.evento4{
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 850px;
+  width:470px;
+  margin-top: -45%;
+  left: 1428px;
+  border-radius: 15px;
+}
+
+.tech3{
+  position: relative;
+  left: 10%;
+  margin-top: 0%;
+  height: 300px;
+  border-radius: 30px;
+}
