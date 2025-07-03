@@ -317,36 +317,52 @@ button:hover{
 
 
 .evento{
- background-color: rgb(241, 241, 241);
+ background-color: #faf5f8;
   position: relative;
   height: 850px;
   width:470px;
   margin-top: 5%;
-  border-radius: 15px;
+  border-radius: 35px;
 }
 
 .mdc {
   position: relative;
   left: 13%;
-  margin-top: 15%;
+  margin-top: 20%;
   height: 450px;
   border-radius: 30px;
 }
 
+.evento:hover{
+  background-color: #dac6d7;
+}
+
+.mdc2{
+  position: relative;
+  left: 1%;
+  margin-top: 5%;
+  height: 200px;
+  border-radius: 30px;
+}
+
 .evento2{
-  background-color: rgb(241, 241, 241);
+  background-color: #faf5f8;
   position: relative;
   height: 850px;
   width:470px;
   margin-top: -45%;
   left: 477px;
-   border-radius: 15px;
+  border-radius: 35px;
+}
+
+.evento2:hover{
+  background-color: #dac6d7;
 }
 
 .campus{
   position: relative;
   left: 8%;
-  margin-top: 5%;
+  margin-top: 20%;
   height: 350px;
   border-radius: 30px;
 }
@@ -358,19 +374,23 @@ button:hover{
   border-radius: 30px;
 }
 .evento3{
-  background-color: rgb(241, 241, 241);
+  background-color: #faf5f8;
   position: relative;
   height: 850px;
   width:470px;
   margin-top: -45%;
   left: 952px;
-   border-radius: 15px;
+  border-radius: 35px;
+}
+
+.evento3:hover{
+  background-color: #dac6d7;
 }
 
 .tech{
   position: relative;
   left: 2%;
-  margin-top: 5%;
+  margin-top: 20%;
   height: 330px;
   border-radius: 30px;
   padding: 5px;
@@ -379,19 +399,23 @@ button:hover{
 .tech2{
   position: relative;
   left: 10%;
-  margin-top: 0%;
+  margin-top: 5%;
   height: 260px;
   border-radius: 30px;
 }
 
 .evento4{
-  background-color: rgb(241, 241, 241);
+  background-color: #faf5f8;
   position: relative;
   height: 850px;
   width:470px;
   margin-top: -45%;
   left: 1428px;
-  border-radius: 15px;
+  border-radius: 35px;
+}
+
+.evento4:hover{
+  background-color: #dac6d7;
 }
 
 .tech3{
@@ -401,3 +425,20 @@ button:hover{
   height: 300px;
   border-radius: 30px;
 }
+
+.textoeventos{
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #f54f4f;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px }
+
+  html {
+  scroll-behavior: smooth;
+}
+ 
